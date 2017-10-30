@@ -1,11 +1,15 @@
 # -*- coding: utf-8 -*-
 import scrapy
+<<<<<<< HEAD
 import re
+=======
+>>>>>>> 292e8b763378e60db40e221cff55068102a26409
 
 
 class JobboleSpider(scrapy.Spider):
     name = 'jobbole'
     allowed_domains = ['blog.jobbole.com']
+<<<<<<< HEAD
     start_urls = ['http://blog.jobbole.com/112783/']
 
     def parse(self, response):
@@ -27,3 +31,9 @@ class JobboleSpider(scrapy.Spider):
         print(contetn)
         pass
 
+=======
+    start_urls = ['http://blog.jobbole.com/']
+
+    def parse(self, response):
+        pass
+>>>>>>> 292e8b763378e60db40e221cff55068102a26409
